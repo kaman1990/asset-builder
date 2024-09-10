@@ -24,8 +24,7 @@ all screen sizes (not the case here) -->
 			</div>
 		</div>
 		<div class=" bg-gray-100 md:ml-5 p-10 flex-1 text-xl rounded-xl mt-8 text-center">
-			You can put lots of things in this section. A quick demo video of your product, a carousel of
-			images, some testimonials or relevant logos. Be creative!
+			This is an example of a hero section.
 		</div>
 	</div>
 </Container>

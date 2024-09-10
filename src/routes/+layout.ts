@@ -6,7 +6,7 @@ export const load = async () => {
 	if (browser && !dev) {
 		posthog.init(PUBLIC_POSTHOG_KEY, {
 			api_host: `${PUBLIC_ORIGIN}/ingest`,
-			ui_host: 'https://us.posthog.com',
+			ui_host: 'https://eu.posthog.com',
 			capture_pageview: false,
 			capture_pageleave: false
 		});

@@ -39,7 +39,7 @@
 					</button>
 				</form>
 			{:else}
-				<a href="/login" class="btn ml-auto"> <Ship />your CTA / login</a>
+				<a href="/login" class="btn ml-auto"> <Ship />Login</a>
 			{/if}
 		</div>
 		<div class="navbar-end lg:hidden">
@@ -53,7 +53,7 @@
 					</button>
 				</form>
 			{:else}
-				<a href="/login" class="hidden sm:flex btn ml-auto mr-2"> <Ship />your CTA / login</a>
+				<a href="/login" class="hidden sm:flex btn ml-auto mr-2"> <Ship />Login</a>
 			{/if}
 			<!-- <a href="/" class="btn ml-auto">your call to action</a> -->
 			<div class="dropdown dropdown-end">
