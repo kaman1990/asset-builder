@@ -4,11 +4,12 @@ import { PUBLIC_ORIGIN, PUBLIC_POSTHOG_KEY } from '$env/static/public';
 
 export const load = async () => {
 	if (browser && !dev) {
-		posthog.init(PUBLIC_POSTHOG_KEY, {
-			api_host: `${PUBLIC_ORIGIN}/ingest`,
-			ui_host: 'https://eu.posthog.com',
-			capture_pageview: false,
-			capture_pageleave: false
-		});
+		posthog.init(
+			'phc_477XVCmhdamgVYWSqLSXXMna3QkEj1CO0WbKsvfU6Uq',
+			{
+				api_host: 'https://eu.i.posthog.com',
+				person_profiles: 'always', // or 'always' to create profiles for anonymous users as well
+			}
+		)
 	}
 };
